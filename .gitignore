@@ -1,0 +1,5 @@
+# Maschinenraum — lokale Claude-Code-Settings, gehören nicht ins Projekt-Repo
+.claude/
+
+# OS-Kram
+.DS_Store
