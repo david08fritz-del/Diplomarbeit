@@ -21,7 +21,7 @@ Projects/Diplomarbeit/
 ├── tech.md         ← Tech-Stack (von Agents gepflegt)
 ├── DOMAIN.md       ← Ubiquitous Language (entsteht beim ersten /grill-with-docs)
 │
-├── spiel/          ← Browser-Spiel „Verteidige dein Leben" (eigenständig, Vollbild) — entsteht beim Bauen
+├── spiel/          ← Browser-Spiel „Verteidige dein Leben" (eigenständig, Vollbild); Design steht in spiel/DESIGN.md
 ├── webseite/       ← Story-Webseite (Bühne, 7 Stationen) — entsteht beim Bauen
 │
 ├── Workflow/       ← aktueller Durchgang (01–09 Artefakte, ephemer)
@@ -38,6 +38,7 @@ Projects/Diplomarbeit/
 | Produkt-Vision — was es ist/nicht ist, Scope, No-Gos | Orientierung, Scope-Frage, „gehört das rein?" | `projekt.md` |
 | Tech-Stack — Entscheidungen, Libraries, Patterns | wenn du Tech wählst/anfässt | `tech.md` |
 | Begriffe — Ubiquitous Language | wenn ein Fachbegriff unklar ist | `DOMAIN.md` (ab erstem Feature) |
+| Das Spiel — Design (Regeln fürs Bauen) | am Spiel arbeiten, Design-Frage | `spiel/DESIGN.md` |
 | Das Spiel — Code | am Spiel arbeiten | `spiel/` |
 | Die Webseite — Code | an der Webseite arbeiten | `webseite/` |
 | Workflow, Regeln, Learnings, Verhalten | beim Bauen, immer | AE-Ebene: `../../Workflow.md`, `../../rules.md`, `../../learnings.md`, `../../AGENTS.md` |

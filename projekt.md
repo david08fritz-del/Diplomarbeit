@@ -27,8 +27,8 @@ Zielgruppe: junge Leute **18–25 in Österreich**.
 - Kein Vergleichsportal, keine Preisberechnung, keine Prämien-Engine.
 - Keine individuelle **Beratung** — Wording bewusst: *Analyse + Vorschläge*.
 - Kein Tool, das erkennt, welche Versicherungen jemand privat hat.
-- Kein AAA-Spiel-Klon (kein Fortnite/GTA/Valorant/FIFA/Brawl). 2D-Browser, dafür in
-  Top-Qualität.
+- Kein AAA-Spiel-Klon (kein Fortnite/GTA/Valorant/FIFA/Brawl). Stilisiertes
+  Low-Poly-3D im Browser (Crossy-Road-Klasse), dafür in Top-Qualität.
 - Kein Dauerbetrieb-Produkt — steht online für Abgabe/Präsentation und etwas danach,
   nicht jahrelang.
 - Kein kommerzielles Arthanc-Produkt — gehört dem Team im Rahmen der Diplomarbeit.
