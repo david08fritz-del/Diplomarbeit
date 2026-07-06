@@ -1,9 +1,9 @@
 import * as THREE from 'three'
-import { SPUR_ABSTAND } from '../sim/konstanten'
 import type { SimEreignis } from '../sim/sim'
 import type { SimZustand } from '../sim/zustand'
 import { berechneBuehne, berechnePixelRatio } from './buehne'
 import { erzeugeFigur } from './figur'
+import { spurZuX } from './spur'
 import { erzeugeSzene } from './szene'
 import { erzeugeWelt } from './welt'
 
@@ -49,7 +49,7 @@ export function erzeugePraesentation(buehnenElement: HTMLElement): Praesentation
       const dt = letzteZeitS === null ? 0 : Math.min(0.1, Math.max(0, zeitS - letzteZeitS))
       letzteZeitS = zeitS
 
-      const zielX = (zustand.spur - 1) * SPUR_ABSTAND
+      const zielX = spurZuX(zustand.spur)
       figurX += (zielX - figurX) * Math.min(1, 12 * dt)
 
       figur.animiere(figurX, zustand, zeitS)

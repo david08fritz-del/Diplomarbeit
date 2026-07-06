@@ -1,7 +1,7 @@
 import * as THREE from 'three'
-import { SPUR_ABSTAND } from '../sim/konstanten'
 import type { SimZustand } from '../sim/zustand'
 import { PALETTE } from './palette'
+import { spurZuX } from './spur'
 
 function material(farbe: number) {
   return new THREE.MeshLambertMaterial({ color: farbe, flatShading: true })
@@ -31,7 +31,7 @@ export function erzeugeFigur() {
     const amBoden = zustand.hoehe === 0
     const wippen = amBoden ? Math.abs(Math.sin(zeitS * 14)) * 0.06 : 0
     gruppe.position.set(figurX, zustand.hoehe + wippen, zustand.z)
-    const zielX = (zustand.spur - 1) * SPUR_ABSTAND
+    const zielX = spurZuX(zustand.spur)
     gruppe.rotation.z = THREE.MathUtils.clamp((figurX - zielX) * 0.12, -0.25, 0.25)
 
     const schwung = Math.sin(zeitS * 14)

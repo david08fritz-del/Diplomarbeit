@@ -3,6 +3,7 @@ import { SPUR_ABSTAND, WAND_INTERVALL } from '../sim/konstanten'
 import { muenzenImBereich } from '../sim/muenzen'
 import type { SimZustand } from '../sim/zustand'
 import { PALETTE } from './palette'
+import { spurZuX } from './spur'
 
 const SEGMENT_LAENGE = 30
 const SEGMENTE = 6
@@ -110,7 +111,7 @@ export function erzeugeWelt(szene: THREE.Scene) {
       const muenze = sichtbar[i]
       mesh.visible = Boolean(muenze)
       if (muenze) {
-        mesh.position.set((muenze.spur - 1) * SPUR_ABSTAND, 0.75, muenze.z)
+        mesh.position.set(spurZuX(muenze.spur), 0.75, muenze.z)
         mesh.rotation.y = zeitS * 3
       }
     }
