@@ -3,3 +3,7 @@
 
 # OS-Kram
 .DS_Store
+
+# Spiel-Build
+spiel/node_modules/
+spiel/dist/
