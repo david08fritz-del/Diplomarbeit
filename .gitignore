@@ -3,3 +3,9 @@
 
 # OS-Kram
 .DS_Store
+
+# Spiel-Build
+spiel/node_modules/
+spiel/dist/
+spiel/test-results/
+spiel/playwright-report/

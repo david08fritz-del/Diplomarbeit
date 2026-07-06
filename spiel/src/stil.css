@@ -1,0 +1,70 @@
+html,
+body {
+  margin: 0;
+  height: 100%;
+  overflow: hidden;
+  background: #10141f;
+  overscroll-behavior: none;
+}
+
+body {
+  display: grid;
+  place-items: center;
+  font-family: system-ui, sans-serif;
+}
+
+#buehne {
+  position: relative;
+  overflow: hidden;
+  touch-action: none;
+  user-select: none;
+  -webkit-user-select: none;
+  -webkit-touch-callout: none;
+}
+
+#buehne canvas {
+  display: block;
+}
+
+#hud {
+  position: absolute;
+  top: max(10px, env(safe-area-inset-top));
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: #fff;
+  font-size: 22px;
+  font-weight: 700;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.45);
+  pointer-events: none;
+}
+
+.muenzen-punkt {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: #ffc300;
+  box-shadow: inset 0 -3px 0 rgba(0, 0, 0, 0.25);
+}
+
+#fps {
+  position: absolute;
+  left: 8px;
+  bottom: max(8px, env(safe-area-inset-bottom));
+  color: #fff;
+  font: 12px/1.4 ui-monospace, monospace;
+  background: rgba(0, 0, 0, 0.4);
+  padding: 2px 6px;
+  border-radius: 4px;
+  pointer-events: none;
+}
+
+.webgl-hinweis {
+  color: #e8e8e8;
+  font-size: 18px;
+  text-align: center;
+  padding: 32px;
+  max-width: 28ch;
+}

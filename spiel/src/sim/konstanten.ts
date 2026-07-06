@@ -1,0 +1,10 @@
+export const SPUR_ABSTAND = 2
+export const LAUF_TEMPO = 8
+export const SPRUNG_V0 = 7.2
+export const GRAVITATION = 22
+export const MUENZE_WERT = 10
+export const MUENZE_FANGRADIUS = 0.8
+export const WAND_INTERVALL = 50
+export const REIHEN_ABSTAND = 6
+export const MUENZEN_JE_REIHE = 3
+export const MUENZEN_ZWISCHENRAUM = 1.2
