@@ -1,0 +1,16 @@
+export const PALETTE = {
+  himmel: 0x8ecae6,
+  boden: 0x80c95f,
+  spur: 0xe9dcc3,
+  spurRand: 0xcdb98e,
+  figurKoerper: 0xff6b35,
+  figurKopf: 0xffd9a0,
+  figurHose: 0x30588c,
+  muenze: 0xffc300,
+  wand: 0xd64550,
+  hausWaende: [0xf4a261, 0xe07a5f, 0x94d2bd],
+  hausDach: 0x8a5a44,
+  baumStamm: 0x8a5a44,
+  baumKrone: 0x52b788,
+  busch: 0x74c69d,
+} as const
