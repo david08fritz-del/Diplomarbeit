@@ -23,6 +23,7 @@ Projects/Diplomarbeit/
 │
 ├── spiel/          ← Browser-Spiel „Verteidige dein Leben" (eigenständig, Vollbild); Design steht in spiel/DESIGN.md
 ├── webseite/       ← Story-Webseite (Bühne, 7 Stationen) — entsteht beim Bauen
+├── deploy/         ← Pages-Root-Platzhalter (bis die Webseite kommt)
 │
 ├── Workflow/       ← aktueller Durchgang (01–09 Artefakte, ephemer)
 ├── archive/        ← 09-Summaries vergangener Durchgänge
